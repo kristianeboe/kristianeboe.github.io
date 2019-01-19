@@ -1,15 +1,14 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
-import Projects from './Projects'
-import Grid from './Grid'
+import React, { Component } from 'react'
+import Projects from './components/Projects'
 
 class App extends Component {
   render() {
     return (
-      <Grid />
+      <div className="App">
+        <Projects />
+      </div>
     )
   }
 }
 
-export default App;
+export default App

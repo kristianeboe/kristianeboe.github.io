@@ -1,39 +1,51 @@
 import React from 'react'
 import Project from './Project'
 import { ProjectsSection, ProjectsWrapper, } from './styles/ProjectsStyles'
+import kristianeboe from '../images/kristianeboe.jpg'
+import yaps from '../images/yaps.jpg'
+import linkedIn from '../images/linkedIn.jpg'
+import blunk from '../images/blunk.jpg'
+import coding from '../images/coding.jpg'
+import boostamins from '../images/boostamins.jpg'
 
 const projects = [
   {
     title: 'YAPS.life',
     description: 'A matchmaking system for roommates',
-    color: 'blue',
+    background:{ image: yaps, centering: 'center',},
+    link: 'https://yaps.life/',
   },
   {
     title: 'Github / Code',
     description: 'See the source code behind my projects',
-    color: 'grey',
+    background:{ image: coding, centering: 'center',},
+    link: 'https://github.com/kristianeboe',
   },
   {
     title: 'kristianeboe.me',
     description:
       'My own little piece of the web. Travel blog and musings on leadership.',
-    color: 'red',
+    background:{ image: kristianeboe, centering: 'center',},
+    link: 'https://kristianeboe.me/',
   },
   {
     title: 'LinkedIn',
     description: 'Professional profile',
-    color: 'teal',
+    background:{ image: linkedIn, centering: 'top',},
+    link: 'https://www.linkedin.com/in/kristianeboe/',
   },
   {
     title: 'Blunk',
     description: 'Dating, redefined',
-    color: 'white',
+    background:{ image: blunk, centering: 'center',},
+    link: 'https://blunk-dev.firebaseapp.com',
   },
   {
     title: 'Boostamins',
     description:
       'A hyper optimized webshop for vitamins and quality suppliments',
-    color: 'green',
+    background:{ image: boostamins, centering: 'center',},
+    link: 'https://boostamins.firebaseapp.com',
   },
 ]
 

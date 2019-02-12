@@ -27,8 +27,8 @@ align-items: center;
 height: 100%;
 width: 100%;
 color: white;
+transition: all 0.5s;
 :hover {
   transform: scale(1.2);
-  transition: all 0.5s;
 }
 `
